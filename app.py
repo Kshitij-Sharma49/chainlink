@@ -104,10 +104,11 @@ def return_predictions(contr_add):
     X_pred = np.array([last_sequence])
     X_pred = np.reshape(X_pred, (X_pred.shape[0], X_pred.shape[1], 1))
 
-    no_of_days = int(months) * 30
+    no_of_days = float(months) * 30
+    days = int(no_of_days)
     # Make predictions for the next n months
     predictions = []
-    for _ in range(no_of_days):
+    for _ in range(days):
         prediction = model.predict(X_pred)
         predictions.append(prediction[0, 0])
         X_pred = np.append(X_pred, [[[prediction[0, 0]]]], axis=1)
