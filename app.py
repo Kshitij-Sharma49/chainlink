@@ -43,9 +43,10 @@ def return_predictions(contr_add):
     ]
     headers = {
         "content-type": "application/json",
-        "X-RapidAPI-Key": "49fba4d0demshb6a2281b6adae66p13613ajsnedf2f167f7ac",
+        "X-RapidAPI-Key": "52fb48fd7dmsh0b71e6ec5aa9659p195552jsn129611c1574a",
         "X-RapidAPI-Host": "chatgpt-api8.p.rapidapi.com"
     }
+#     49fba4d0demshb6a2281b6adae66p13613ajsnedf2f167f7ac
 
     response = requests.post(url, json=payload, headers=headers)
 
