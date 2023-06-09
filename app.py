@@ -18,7 +18,7 @@ CORS(app)
 # api = Api(app)
 
 
-@app.route('/predictions/contract_address=<contr_add>', methods=['GET'])
+@app.route('/predictions/contract_address=<contr_add>', methods=['POST'])
 def return_predictions(contr_add):
     # Validate the contract address
     pattern = r'^0x[0-9a-fA-F]{40}$'
