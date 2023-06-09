@@ -43,9 +43,10 @@ def return_predictions(contr_add):
     ]
     headers = {
         "content-type": "application/json",
-        "X-RapidAPI-Key": "b27a6c1e94mshd45ec690537c794p1ff7b3jsn444433f6000c",
+        "X-RapidAPI-Key": "27af42f834msh74733b5484d6911p1e5002jsn1d23362f1c67",
         "X-RapidAPI-Host": "chatgpt-api8.p.rapidapi.com"
     }
+#     b27a6c1e94mshd45ec690537c794p1ff7b3jsn444433f6000c
 #     49fba4d0demshb6a2281b6adae66p13613ajsnedf2f167f7ac
 #     52fb48fd7dmsh0b71e6ec5aa9659p195552jsn129611c1574a
 # 03299c5613mshdb18cb35d75382ap1c703cjsn5087e3843a36
